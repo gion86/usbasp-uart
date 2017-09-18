@@ -18,7 +18,7 @@ LFUSE=0xef
 # ISP=usbasp   PORT=/dev/usb/ttyUSB0
 # ISP=stk500v2 PORT=/dev/ttyUSB0
 ISP=avrisp
-PORT=/dev/ttyArduino -b 19200
+PORT=/dev/ttyACM0 -b 19200
 
 help:
 	@echo "Usage: make                same as make help"
